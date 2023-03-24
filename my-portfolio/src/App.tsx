@@ -1,11 +1,12 @@
 import react from 'react';
 import {createBrowserRouter, RouterProvider} from 'react-router-dom'
-import Homepage from './components/HomePage'
-import About from './components/About';
-import Contact from './components/Contact';
-import ErrorPage from './components/ErrorPage';
+import Homepage from './components/HomePage/HomePage'
+import About from './components/About/About';
+import Contact from './components/Contact/Contact';
+import ErrorPage from './components/ErrorPage/ErrorPage';
 // import Resume from './components/Resume';
-import Projects from './components/Projects';
+import Projects from './components/Projects/Projects';
+import Nav from "./nav";
 
 export default function App() {
 
@@ -33,7 +34,8 @@ export default function App() {
 
     return(
         <section className="App">
-                        
+            <Nav />
+            <Homepage />                       
         </section>
     )
 }

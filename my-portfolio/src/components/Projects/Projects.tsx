@@ -1,5 +1,5 @@
 import BreweryApp from "../assets/BreweryApp.png";
-import PinkFairy from "../assets/Pink Fairy Shop Grabber.png";
+import PinkFairy from "../assets/PinkFairyShopGrabber.png";
 
 export default function Projects(){
     return(
