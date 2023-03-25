@@ -1,4 +1,4 @@
-import {Outlet, Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 export default function Nav(){
     return(
@@ -6,7 +6,7 @@ export default function Nav(){
             <nav className="nav-bar">
                 <ul className="nav-list">
                     <li className="nav-link" id="Home">
-                        <Link to={'/'}>Home</Link>
+                        <Link to={"/"}>Home</Link>
                     </li>
                     <li className="nav-link" id="About">
                         <Link to={"/about"}>About Me</Link>
