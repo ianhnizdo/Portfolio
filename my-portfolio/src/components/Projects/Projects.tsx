@@ -1,9 +1,14 @@
 import BreweryApp from "../../assets/BreweryApp.png"
 import PinkFairy from "../../assets/PinkFairyShopGrabber.png"
+import Nav from '../Nav/nav'
 
 export default function Projects(){
     return(
         <section className="Projects">
+        {/* <section className="Navbar"> */}
+
+            < Nav/>
+        {/* </section> */}
             <figure className="Svelvet">
 
             </figure>

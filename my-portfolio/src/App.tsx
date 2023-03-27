@@ -1,14 +1,13 @@
 import react from 'react';
-import Nav from "./nav";
+import Nav from "./components/Nav/nav";
 
 export default function App() {
 
 
 
     return(
-        <section className="App">
+        <section className="Heading">
             <Nav />
-            {/* <Homepage />                        */}
         </section>
     )
 }
