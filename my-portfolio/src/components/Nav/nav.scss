@@ -1,1 +1,11 @@
-@import "../node_modules/bootstrap/scss/bootstrap"
+
+$color: teal;
+
+.navigation{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    border: solid;
+}
+
+@import "../../../node_modules/bootstrap/scss/bootstrap"
